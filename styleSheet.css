@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* laptops*/
+@media only screen and (min-width: 992px) {
+  .logoImage {
+    width: 20vw;
+    height: 10vh;
+  }
+
+  .iconshide {
+    display: none;
+  }
+
+  .icons {
+    width: 5vw;
+    height: 5vh;
+
+  }
+
+  nav {
+    display: grid;
+    /* border: 1px solid sandybrown; */
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* width: 50vw; */
+  }
+
+  .search {
+    /* border: 1px solid; */
+    /* border-radius: 10%; */
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+    /* blue container */
+
+    .container1{
+      display: grid;
+
+  grid-template-columns: auto auto ;
+  text-align: center;
+  align-items: center;
+      color: antiquewhite;
+      background-color: #114388;
+  
+    }
+  
+    .inner1{
+      /* border: 1px solid rgb(112, 112, 137); */
+      display: flex;
+
+  justify-content: space-around;
+    }
+  
+    .inner1a{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+}
+
+/* For small devices, between 400px and 991px */
+@media only screen and (min-width: 400px) and (max-width: 991px) {
+  .logoImage {
+    width: 20vw;
+    height: 10vh;
+  }
+
+
+  .icons, .iconshide {
+    width: 5vw;
+    height: 5vh;
+  }
+
+  nav {
+    display: grid;
+    /* border: 1px solid sandybrown; */
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .search {
+    border: 1px solid;
+    border-radius: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  .navelement {
+    display: none;
+  }
+
+  /* blue container */
+
+  .container1{
+    display: grid;
+grid-template-rows: auto auto;
+text-align: center;
+align-items: center;
+    color: antiquewhite;
+    background-color: #114388;
+
+  }
+
+  .inner1{
+    /* border: 1px solid rgb(112, 112, 137); */
+    display: flex;
+text-align: center;
+align-items: center;
+justify-content: space-around;
+  }
+
+  .inner1a{
+    display: grid;
+  }
+
+
+
+
+
+}
+
+
